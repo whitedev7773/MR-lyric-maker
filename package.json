@@ -1,9 +1,13 @@
 {
   "name": "mr-lyric-maker",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A script to help create lyrics in After Effects.",
   "scripts": {
     "build": "rollup -c"
   },
   "devDependencies": {
+    "@rollup/plugin-alias": "^5.1.1",
     "rollup": "^3.0.0",
     "rollup-plugin-typescript2": "^0.34.0",
     "typescript": "^5.0.0"

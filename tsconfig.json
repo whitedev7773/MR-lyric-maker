@@ -1,11 +1,22 @@
 {
   "compilerOptions": {
-    "module": "esnext", // 번들러가 처리
+    "module": "es2015",
+    "target": "es5",
+    "lib": ["ES2021"],
     "noLib": false,
     "strict": true,
     "declaration": false,
     "sourceMap": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "$src/*": ["src/*"],
+      "$utils/*": ["src/utils/*"],
+      "$types/*": ["src/types/*"],
+      "$components/*": ["src/components/*"],
+      "$errors/*": ["src/errors/*"],
+      "$windows/*": ["src/windows/*"]
+    }
   },
   "include": ["src/**/*"]
 }
