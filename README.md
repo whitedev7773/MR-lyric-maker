@@ -1,6 +1,10 @@
 # MR Lyric Maker
 
-Adobe After Effects용 MR 가사 제작 스크립트입니다.
+Adobe After Effects용 MR 가사 제작 스크립트입니다. 그러니까...
+
+![thumbnail](./.github/thumbnail.png)
+
+이걸 대신 만들어줘요...
 
 ## 사전 요구 사항
 
