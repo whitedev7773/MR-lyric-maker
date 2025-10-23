@@ -1,21 +1,21 @@
 /// <reference types="types-for-adobe/AfterEffects/24.6" />
 /// <reference path="./.scriptui-fix.d.ts" />
 
-export function getLyricsInput(thisObj?: Panel): string {
+export function getTimesInput(thisObj?: Panel): string {
   var userInput = "";
 
-  var window = new Window("dialog", "가사 입력");
+  var window = new Window("dialog", "시간 입력");
 
   // 타이틀
   var titleGroup = window.add("group", undefined);
-  titleGroup.add("statictext", undefined, "가사를 입력해주세요.");
-  titleGroup.add("statictext", undefined, "가사의 예시는 아래와 같아요.");
+  titleGroup.add("statictext", undefined, "시간를 입력해주세요.");
+  titleGroup.add("statictext", undefined, "시간의 예시는 아래와 같아요.");
 
   // 설명
   var descGroup = window.add("group");
-  descGroup.add("statictext", undefined, "せーので黙って");
-  descGroup.add("statictext", undefined, "세-노데 다맛테");
-  descGroup.add("statictext", undefined, "하나 둘하면 조용히?");
+  descGroup.add("statictext", undefined, "00:00:00:00");
+  descGroup.add("statictext", undefined, "00:00:02:23");
+  descGroup.add("statictext", undefined, "00:00:05:41");
 
   // 입력창
   var textInput = window.add("edittext" as any, undefined, "", {
