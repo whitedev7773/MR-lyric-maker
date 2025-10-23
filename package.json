@@ -1,0 +1,14 @@
+{
+  "name": "mr-lyric-maker",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^3.0.0",
+    "rollup-plugin-typescript2": "^0.34.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "types-for-adobe": "^7.2.5"
+  }
+}

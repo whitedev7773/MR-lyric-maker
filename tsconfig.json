@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "esnext", // 번들러가 처리
+    "noLib": false,
+    "strict": true,
+    "declaration": false,
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "include": ["src/**/*"]
+}
