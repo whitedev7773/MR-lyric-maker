@@ -6,6 +6,8 @@ Adobe After Effects용 MR 가사 제작 스크립트입니다. 그러니까...
 
 이걸 대신 만들어줘요...
 
+![media](./.github/media.gif)
+
 ## 사전 요구 사항
 
 - [After Effects CC 2025](https://www.adobe.com/kr/products/aftereffects.html) - 최소 2024 이상 권장
